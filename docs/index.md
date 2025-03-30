@@ -3,23 +3,27 @@
 layout: home
 
 hero:
-  name: "WebWong-blog"
-  text: "blog"
-  tagline: My great project tagline
+  name: "Web技术探索"
+  # text: "blog"
+  tagline: "有实践、有体会、有记录"
+  image: 
+     src: /background.svg
+     alt: 背景图片
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 前端
+      link: /src/web/index
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Shopify
+      link: /src/shopify/index
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon:
+      src: /weixin.png
+    title: "微信公众号: WebWong"
+    # details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    # details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    # details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-
