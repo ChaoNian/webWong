@@ -5,6 +5,7 @@ const require = createRequire(import.meta.url)
 const pkg = require('vitepress/package.json')
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/webWong/',
   title: "WebWong-blog",
   description: "blog",
   themeConfig: {
